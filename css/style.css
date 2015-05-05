@@ -441,7 +441,6 @@ body{
 }
 .links{
   float: right;
-
   font-size: 16px; 
   margin-top: 25px;
   color: #838994;     
@@ -449,6 +448,11 @@ body{
 .links > li{
    display: inline-block;
    margin-left: 25px;
+}
+.top-navigation{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 .top-navigation .links li:hover{
   cursor: pointer;
@@ -509,4 +513,17 @@ body{
   background-color: #d9400e;
   border-color: #cf3d0e;
   cursor: pointer;
+}
+
+.cases li{
+     display: inline-block;
+     width: 33.3333333%;
+     text-align: center;
+}
+.cases h2 {
+  font-weight: 300;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.75rem;
+  margin: 1.625rem 0 3.125rem;
 }
